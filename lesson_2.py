@@ -77,7 +77,10 @@ filename = 'document'
 extention = 'doc'
 path = "Documents"
 
-value_str6 = f"{path}/{filename}.{extention}"  # f - string дозволяє працювати з змінними в строчці +
+
+print(filename, path)
+
+value_str6 = f"{path}/{filename}/{extention}"  # f - string дозволяє працювати з змінними в строчці +
 
 # value = "Hello" + " World"
 # value = "Hello" * 2
@@ -87,7 +90,7 @@ number = 2
 
 value = f"Hello {number}"
 
-print(value)
+# print(value)
 
 
 
